@@ -14,7 +14,7 @@ public class MyApp
             Scanner scanner = new Scanner(new FileReader("c:\\Temp\\inputData20191007"));
         }
         catch(IOException e){
-            System.out.println("오류");
+            System.out.println("오류"); 
         }
     }
 }
