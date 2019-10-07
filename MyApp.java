@@ -16,5 +16,15 @@ public class MyApp
         catch(IOException e){
             System.out.println("오류"); 
         }
+        HashMap<String, Integer> h = new HashMap<String, Integer>();
+        // while(scanner.hasNext()){
+
+        Set<String> keys = h.keySet();
+        Iterator<String> it = keys.iterator();
+        
+        while(it.hasNext()){
+            
+        }
+            
     }
 }
