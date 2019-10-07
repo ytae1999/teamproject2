@@ -24,12 +24,13 @@ public class MyApp
             h.put(key, value);
         }
 
-        Set<String> keys = h.keySet();
-        Iterator<String> it = keys.iterator();
+        Set<String> keys = h.keySet();  //모든 key를 가진 Set컬렉션 리턴
+        Iterator<String> it = keys.iterator(); //Set에 있는 모든 key를 순서대로 검색하는 Iterator 리턴
+
 
         int sum = 0; // sum 초기화 
         while(it.hasNext()){ 
-            String key = it.next();
+            String key = it.next(); // //다음 키를 가져온다.
             sum = sum + h.get(key); //sum의 값들을 계속 더해간다
         }
         System.out.println("총점 : " + sum); //총점 출력 
