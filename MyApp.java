@@ -4,8 +4,8 @@ import java.io.*;
 /**
  * 여기에 aaaa 클래스 설명을 작성하십시오.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315033 태영준, 2018315009 황훈태) 
+ * @version (2019.10.07)
  */
 public class MyApp
 {
