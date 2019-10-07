@@ -22,9 +22,12 @@ public class MyApp
         Set<String> keys = h.keySet();
         Iterator<String> it = keys.iterator();
         
+        int sum = 0;
         while(it.hasNext()){
-            
+            String key = it.next();
+            sum = sum + h.get(key);
         }
-            
+        System.out.println("총점 : " + sum);
+        System.out.println("평균 : " + (sum/h.size()));
     }
 }
