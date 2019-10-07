@@ -17,19 +17,16 @@ public class MyApp
             System.out.println("오류"); 
         }
         HashMap<String, Integer> h = new HashMap<String, Integer>();
-<<<<<<< HEAD
+        
         while(scanner.hasNext()){ //파일의 끝까지 반복한다.
             String key = scanner.nextLine();
             Integer value = scanner.nextLine();
             h.put(key, value);
         }
-=======
-        // while(scanner.hasNext()){ // 한라인씩 읽기
->>>>>>> 7b4a0f89c5843f6f0949945873b1f1714f12aac1
 
         Set<String> keys = h.keySet();
         Iterator<String> it = keys.iterator();
-        
+
         int sum = 0; // sum 초기화 
         while(it.hasNext()){ 
             String key = it.next();
